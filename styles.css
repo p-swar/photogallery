@@ -1,0 +1,156 @@
+body{
+  background-color: #EBA9B6;
+}
+
+h1 {
+  font-size: 50px;
+  color: blue;
+  background-color: yellow;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  padding: 7px;
+  margin: 7px;
+  border: 5px solid yellow;
+
+}
+
+.one, .two, .three, .four, .five, .six, .seven{
+  height: 350px;
+  width: 350px;
+}
+
+.text1{
+  position: absolute;
+  left: 180px;
+  bottom: 400px;
+  visibility: hidden;
+}
+.one:hover .text1{
+  position: absolute;
+  color:white;
+  visibility: visible;
+}
+
+.text2{
+  position: absolute;
+  left: 520px;
+  bottom: 400px;
+  visibility: hidden;
+}
+.two:hover .text2{
+  position: absolute;
+  color:white;
+  /* opacity: 0;
+  top: 0;
+  bottom:0;
+  left:0;
+  right:0; */
+  visibility: visible;
+}
+
+.text3{
+  position: absolute;
+  left: 870px;
+  bottom: 400px;
+  visibility: hidden;
+}
+.three:hover .text3{
+  position: absolute;
+  color:white;
+  visibility: visible;
+}
+
+.text4{
+  position: absolute;
+  left: 1200px;
+  bottom: 400px;
+  visibility: hidden;
+}
+.four:hover .text4{
+  position: absolute;
+  color:white;
+  visibility: visible;
+}
+
+.text5{
+  position: absolute;
+  left: 180px;
+  bottom: 15px;
+  visibility: hidden;
+}
+.five:hover .text5{
+  position: absolute;
+  color:white;
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+img:hover {
+  opacity: 0.8;
+  border: 5px solid black;
+  height: 320;
+  width: 320;
+    top:-10px;
+    left:-10px;
+    width:310px;
+    height:310px;
+
+}
+
+img:hover .text1{
+  visibility: visible;
+  opacity: 0.5;
+  color:black;
+}
+
+#taohid{
+  object-position: 100% 40%;
+  transform: rotate(0deg);
+}
+
+#pictureday{
+  object-position: 75% 40%
+}
+
+#pictureday2, #mikey{
+  object-position: 100% 30%
+}
+
+#noushin{
+  object-position: 100% 40%
+
+
+}
+
+#shreyamirror, #sakshimirror, #beachmirror{
+  object-position: 50% -1%
+}
+
+.rotate{
+  transform: rotate(270deg);
+}
+
+.rotate2{
+  transform: rotate(90deg);
+}
